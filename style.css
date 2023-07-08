@@ -1,0 +1,187 @@
+*{background-color:darkgray;}
+header{
+    width: 100%;
+    height: 10%;
+    font-family: ARIAL;
+    text-align: center;
+    position: relative;
+    display: flex;
+}
+
+.header{
+    border-style: none;
+    flex: 1;
+    
+    background: rgba(255, 255, 255, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.1px);
+-webkit-backdrop-filter: blur(3.1px);
+}
+.header img{
+height: 120%;
+border-radius: 15px;
+}
+
+
+#search1{
+    position:absolute;
+    margin-top:6%;
+    margin-left: 74%;
+    width: 25%;
+    background: rgba(255, 255, 255, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+    height: 8%;
+} 
+#search1 input{
+    width: 100%;
+    border-radius: 15px;
+    height: 100%;
+}
+
+#pedar{
+    width: 100%;
+    margin-top: 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pedar .pesar{
+    padding: 20px;
+    width: 20%;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px;
+
+    background: rgba(255, 255, 255, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.1px);
+-webkit-backdrop-filter: blur(3.1px);
+}
+.nave img{
+    width: 100%;
+    border-radius: 100%;
+    
+}
+
+#pedar2{
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#pedar2 .pesar2{
+    padding: 20px;
+    width: 33.33%;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px;
+
+    background: rgba(255, 255, 255, 0.22);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.1px);
+-webkit-backdrop-filter: blur(3.1px);
+}
+
+.nave2 img{
+    width: 100%;
+}
+
+#button1{
+    position: absolute;
+    border-radius: 100%;
+    margin-top: -8%;
+}
+#button2{
+    border-radius: 100%;
+    margin-top: -8%;
+    margin-left: 98%;
+}
+
+
+button{
+    opacity:0.8;
+}
+
+button:hover{
+   background-color: black;
+    transition:1s;
+    color: wheat;
+}
+
+h3{
+    text-align: center;
+   padding-top: 20%;
+   margin-top: -10%;
+   text-decoration: none;
+   font-size:50px;
+}
+ a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: blueviolet;
+}
+
+@media only screen and (max-width:500px) 
+
+{
+  
+    header{
+        width: 100%;
+        height: 10%; 
+        
+    }
+
+    .header{
+        
+        background: rgba(255, 255, 255, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+    }
+    .header img{
+    height: 100%;
+    border-radius: 15px;
+    }
+
+#search1{
+    margin-top: 19%;
+    width: 35%;
+    height: 8%;
+}
+#search1 input{
+    width: 100%;
+    height: 100%;
+}
+#img1{
+    display: none;
+}
+
+#search1{
+margin-left: 60%;
+}
+
+#pedar .pesar{
+    margin-top: 20%;
+    width: 50%;
+}
+
+#pedar2 .pesar2{
+    width: 100%;
+}
+button{
+    display: none;
+}
+
+}
+
+
+  
+
